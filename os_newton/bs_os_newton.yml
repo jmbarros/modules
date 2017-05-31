@@ -1,0 +1,8 @@
+---
+  - hosts: localhost
+    connection: local
+    user: local
+  
+    roles:
+    - jmbarros.common
+    - jmbarros.os_newton
